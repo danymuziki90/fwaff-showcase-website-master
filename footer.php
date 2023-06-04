@@ -41,9 +41,8 @@
             <h2 class='title'>Find us on</h2>
             <!-- Social Icons -->
             <ul class="social-icons list-inline pt-2">
-
-              <a type="button" class="btn-floating" style="color:blue"><i class="fab fa-facebook"></i></a>
               <a type="button" class="btn-insta" style="color:red"><i class="fab fa-instagram"></i></a>
+              <a type="button" class="btn-floating" style="color:blue"><i class="fab fa-facebook"></i></a>
               <a type="button" class="btn-google" style="color: red"><i class=" fab fa-google-plus-g"></i></a>
 
             </ul>

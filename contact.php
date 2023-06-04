@@ -22,21 +22,23 @@
 
 
 <!--====== Contact Area Start ======-->
-<section id="contact" class="contact-area ptb_100" data-aos="fade-up">
-  <div class="container" data-aos="fade-up">
+<section id="contact" class="contact-area pt-5  pb-5">
+  <div class="container">
     <div class="row justify-content-between align-items-center" data-aos="fade-up">
-      <div class="col-12 col-lg-5" data-aos="fade-up">
+      <div class="col-12 col-lg-5">
         <!-- Section Heading -->
-        <div class="section-heading text-center mb-3" data-aos="fade-up">
+        <div class="section-heading text-center " data-aos="fade-up">
           <h2><?php print $contact_title ?></h2>
-          <p class="d-none d-sm-block mt-4">If you have a question, comment or idea, please fill in the form or call and
-            we will get back to you as soon as posssible.</p>
+          <p class="d-none d-sm-block mt-4" data-aos="fade-up">If you have a question, comment or idea, please fill in
+            the form or call us
+            and
+            we will get back to you as soon as posssible</p>
         </div>
         <!-- Contact Us -->
-        <div class="contact-us">
+        <div class="contact-us" data-aos="fade-up">
           <ul>
             <!-- Contact Info -->
-            <li class="contact-info color-1 bg-hover active hover-bottom text-center p-5 m-3" data-aos="fade-up">
+            <li class="contact-info color-1 bg-hover active hover-bottom text-center p-5 m-3">
               <span><i class="fas fa-mobile-alt fa-3x"></i></span>
               <a class="d-block my-2" href="tel:+1(817)350-9970">
                 <h3>+1(817)350-9970</h3>
@@ -46,10 +48,10 @@
             <!-- Contact Info -->
             <li class="contact-info color-3 bg-hover active hover-bottom text-center p-5 m-3" data-aos="fade-up">
               <span><i class="fas fa-envelope-open-text fa-3x"></i></span>
-              <a class="d-none d-sm-block my-2" href="administration@fwaff.org">
+              <a class="d-none d-sm-block my-2" href="mailto:administration@fwaff.org">
                 <h3>administration@fwaff.org</h3>
               </a>
-              <a class="d-block d-sm-none my-2" href="administration@fwaff.org">
+              <a class="d-block d-sm-none my-2" href="mailto:administration@fwaff.org">
                 <h3>administration@fwaff.org</h3>
               </a>
 
@@ -59,7 +61,7 @@
       </div>
       <div class="col-12 col-lg-6 pt-4 pt-lg-0">
         <!-- Contact Box -->
-        <div class="contact-box text-center">
+        <div class="contact-box text-center" data-aos="fade-up">
           <!-- Contact Form -->
           <?php
                              $status = "OK"; //initial status
@@ -91,7 +93,7 @@
                             // =================================================================================
                             // CHANGE TO THE COMPANY MAIL HERE (THE ONE WHICH WILL BE RECEIVING THE CONTACT FORM)
                             // =================================================================================
-                            $recipient="administration@fwaff.org";
+                            $recipient="mail@company.com";
 
                             $formcontent="NAME:$name \n EMAIL: $email  \n PHONE: $phone  \n MESSAGE: $message";
 
@@ -136,8 +138,8 @@
                             ?>
 
           <form action="" method="post" enctype="multipart/form-data" data-aos="fade-up">
-            <div class="row" data-aos="fade-up">
-              <div class="col-12" data-aos="fade-up">
+            <div class="row">
+              <div class="col-12">
                 <div class="form-group">
                   <input type="text" class="form-control" name="name" placeholder="Name" required="required">
                 </div>
@@ -149,12 +151,12 @@
                   <input type="text" class="form-control" name="phone" placeholder="Phone" required="required">
                 </div>
               </div>
-              <div class="col-12" data-aos="fade-up">
+              <div class="col-12">
                 <div class="form-group">
                   <textarea class="form-control" name="message" placeholder="Message" required="required"></textarea>
                 </div>
               </div>
-              <div class="col-12" data-aos="fade-up">
+              <div class="col-12">
                 <button type="submit" class="btn btn-bordered active btn-block mt-3" name="save"><span
                     class="text-white pr-3"><i class="fas fa-paper-plane"></i></span>Send Message</button>
               </div>
@@ -166,16 +168,8 @@
     </div>
   </div>
 </section>
-<!--====== Contact Area End ======-->
 
 
 <!--====== Map Area Start ======-->
-<section class="section map-area">
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15831.675671634295!2d5.213205717780946!3d7.250068752504376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10478fe4790d8e8f%3A0x2cd76b14809e3d7a!2sAlagbaka%2C%20Akure!5e0!3m2!1sen!2sng!4v1658159211365!5m2!1sen!2sng"
-    width="100" height="100" style="border:0;" allowfullscreen="" loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-</section>
-<!--====== Map Area End ======-->
 <?php include "footer.php";?>

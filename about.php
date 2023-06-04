@@ -101,8 +101,8 @@
 
 
 <!--====== Contact Area Start ======-->
-<section id="contact" class="contact-area ptb_100 ">
-  <div class="container border-2 bg-black " data-aos="fade-up">
+<section id="contact " class="contact-area ptb_100 ">
+  <div class="container border-2 pt-5 " data-aos="fade-up">
     <div class="row justify-content-between align-items-center " data-aos="fade-up">
       <div class="col-12 col-lg-5">
         <!-- Section Heading -->

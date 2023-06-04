@@ -1,40 +1,117 @@
-<?php include "header.php";?>
-<section class="section breadcrumb-area overlay-dark d-flex align-items-center">
+<?php include "header.php"; ?>
+<!-- ***** Welcome Area Start ***** -->
+<section id="home" class="section welcome-area bg-overlay overflow-hidden d-flex align-items-center ">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <!-- Breamcrumb Content -->
-        <div class="breadcrumb-content text-center">
-          <h2 class="text-white text-uppercase mb-3">Our Past Pulications</h2>
-          <ol class="breadcrumb d-flex justify-content-center">
-            <li class="breadcrumb-item"><a class="text-uppercase text-white" href="index.html">Home</a></li>
+    <div class="row align-items-center">
+      <!-- Welcome Intro Start -->
+      <div class="col-12 col-md-7">
+        <?php
+                        $rr=mysqli_query($con,"SELECT * FROM static");
+                        $r = mysqli_fetch_row($rr);
+                        $stitle = $r[1];
+                        $stext=$r[2];
+                    ?>
 
-            <li class="breadcrumb-item text-white active">Our Blog</li>
-          </ol>
+        <div class="welcome-intro">
+          <h1 class="text-white" data-aos="fade-up">Why Fort Worth Africa Funeral Foundation?</h1>
+          <p class="text-white my-4  " data-aos="fade-up">Our mission is to make sure that opportunity to be part of our
+            community should
+            rip
+            benefit that comes with it. Such as personal grow, be educated in financial literacy, etc.</p>
+          <!-- Buttons -->
+          <div class="button-group" data-aos="fade-up">
+            <a href="about.php" class="btn btn-bordered-white">Read More</a>
+            <a href="contact.php" class="btn btn-bordered-white d-none d-sm-inline-block">Contact Us</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-5" data-aos="fade-up">
+        <!-- Welcome Thumb -->
+        <div class="welcome-thumb-wrapper mt-5 mt-md-0">
+          <span class="welcome-thumb-1">
+            <img class="welcome-animation d-block ml-auto" src="assets/img/welcome/togeth" alt="">
+          </span>
+
         </div>
       </div>
     </div>
   </div>
+  <!-- Shape Bottom -->
+  <div class="shape shape-bottom ">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none" fill="#FFFFFF">
+      <path class="shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+        c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+        c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+    </svg>
+  </div>
 </section>
-<!-- ***** Breadcrumb Area End ***** -->
+<!-- ***** Welcome Area End ***** -->
+
+<!-- ***** Promo Area Start ***** -->
+<section class="section promo-area pt-5" data-aos="fade-up">
+  <div class="container ">
+    <div class="row" data-aos="fade-up">
+      <div class="client-reviews owl-carousel" data-aos="fade-up">
+        <div class="card" data-aos="fade-up">
+
+          <img src="./assets/img/about/concept.JPG" alt="" class="headerr">
+
+          <div class=" concept  text-center">
+            <h2>Concept</h2>
+            <p>Our mission is to make sure that everyone that get the opportunity to be part of our community should rip
+              the
+              benefit that comes with it. Such as personal grow, be educated in financial literacy, etc.</p>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-up">
+
+          <img src="./assets/img/about/mission.JPG" alt="" class="headerr">
+
+          <div class=" concept  text-center">
+            <h2>FWAFF’s long term mission</h2>
+            <p>
+              We have seen how people come to America and loose they are way in the process. Which I myself is one of
+              them. And that is one of the thing that we will mostly focus abo</p>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-up">
+          <img src="./assets/img/about/opportinuty.JPG" alt="" class="headerr">
+
+          <div class=" concept  text-center">
+            <h2>Opportunities</h2>
+            <p>
+              The problem that we face now in our community is luck of information and guidance and that’s what FWAFF is
+              bring to our community.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
 
 
 <!-- ***** Blog Area Start ***** -->
-<section id="portfolio" class="portfolio-area overflow-hidden ptb_100">
+<section id="portfolio" class="portfolio-area overflow-hidden ptb_100 pb-4">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 col-md-10 col-lg-7">
+      <div class="col-12 col-md-10 col-lg-7" data-aos="fade-up">
         <!-- Section Heading -->
         <div class="section-heading text-center">
-          <h2>Our recent articles</h2>
+          <h2>our recent articles</h2>
         </div>
       </div>
     </div>
     <!-- Portfolio Items -->
-    <div class="row items ">
+    <div class="row items" data-aos="fade-up">
 
       <?php
-				   $q="SELECT * FROM  blog ORDER BY id DESC";
+				   $q="SELECT * FROM  blog ORDER BY id DESC LIMIT 3";
 
 
                     $r123 = mysqli_query($con,$q);
@@ -70,8 +147,6 @@
                                 <h3 class='mb-3'>$port_title</h3>
                                 <p>$port_desc.</p>
                             </a>
-
-                            <br/><br/>
                         </div>
                         </div>
                         ";
@@ -79,8 +154,9 @@
                 ?>
 
     </div>
-
-
+    <div class="row justify-content-center" data-aos="fade-up">
+      <a href="new.php" class="btn  btn-bordered mt-4">View More</a>
+    </div>
   </div>
 </section>
 <!-- ***** Blog Area End ***** -->
@@ -89,7 +165,82 @@
 
 <!-- ***** Price Plan Area End ***** -->
 
+<!-- ***** Team Area Start ***** -->
+<section id="review" class="section review-area bg-overlay pt-2 pb-4 ">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-7">
+        <!-- Section Heading -->
 
+
+        <div class="section-heading  text-center m-4" data-aos="fade-up">
+          <h2 class="text-white">Our Team</h2>
+          <p class="text-white  d-sm-block mt-4">We have a wonderfull team of wonderfull
+            persons with great personnality and great integrity, take a tour to see them below.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" data-aos="fade-up">
+      <div class="client-reviews owl-carousel" data-aos="fade-up">
+
+        <div class="cardd" data-aos="fade-up">
+          <img src="./assets/img/team/serge.JPG" alt="" class="cardimg">
+          <div class=" conceptt text-center">
+            <h2>SERGE</h2>
+            <P>President</P>
+          </div>
+        </div>
+
+        <div class="cardd" data-aos="fade-up">
+          <img src="./assets/img/team/suzy.JPG" alt="" class="cardimg">
+          <div class=" conceptt  text-center">
+            <h2>SUZY</h2>
+            <p>Vice President</p>
+          </div>
+        </div>
+
+        <div class="cardd" data-aos="fade-up">
+          <img src="./assets/img/team/ahadi.JPG" alt="" class="cardimg">
+          <div class=" conceptt  text-center">
+            <h2>AHADI</h2>
+            <p>Communication and Affairs</p>
+          </div>
+        </div>
+
+        <div class="cardd" data-aos="fade-up">
+          <img src="./assets/img/team/espoir.JPG" alt="" class="cardimg">
+          <div class=" conceptt text-center">
+            <h2>ESPOIR</h2>
+            <p>Representative</p>
+          </div>
+        </div>
+
+        <div class="cardd" data-aos="fade-up">
+          <img src="./assets/img/team/esther.JPG" alt="" class="cardimg">
+          <div class=" conceptt  text-center">
+            <h2>ESTHER</h2>
+            <p>Event Organizer</p>
+          </div>
+        </div>
+
+        <div class="cardd" data-aos="fade-up">
+          <img src="./assets/img/team/Petro.JPG" alt="" class="cardimg">
+          <div class=" conceptt text-center">
+            <h2>PETRO</h2>
+            <p>Treasure
+            </p>
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ***** Review Area End ***** -->
 
 <!--====== Contact Area Start ======-->
 <section id="contact" class="contact-area pt-5  pb-5">
@@ -238,5 +389,8 @@
     </div>
   </div>
 </section>
+<!--====== Contact Area End ======-->
+
+
 
 <?php include "footer.php"; ?>

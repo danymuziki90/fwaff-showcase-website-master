@@ -28,12 +28,7 @@
 
       <div class="col-12 col-md-5" data-aos="fade-up">
         <!-- Welcome Thumb -->
-        <div class="welcome-thumb-wrapper mt-5 mt-md-0">
-          <span class="welcome-thumb-1">
-            <img class="welcome-animation d-block ml-auto" src="assets/img/welcome/togeth" alt="">
-          </span>
 
-        </div>
       </div>
     </div>
   </div>
@@ -50,45 +45,56 @@
 
 <!-- ***** Promo Area Start ***** -->
 <section class="section promo-area pt-5" data-aos="fade-up">
-  <div class="container ">
-    <div class="row" data-aos="fade-up">
-      <div class="client-reviews owl-carousel" data-aos="fade-up">
-        <div class="card" data-aos="fade-up">
+  <div class="containerr  container">
 
-          <img src="./assets/img/about/concept.JPG" alt="" class="headerr">
 
-          <div class=" concept  text-center">
-            <h2>Concept</h2>
-            <p>Our mission is to make sure that everyone that get the opportunity to be part of our community should rip
-              the
-              benefit that comes with it. Such as personal grow, be educated in financial literacy, etc.</p>
-          </div>
+    <div class="card " data-aos="fade-up">
+      <img src="./assets/img/about/concept.JPG" alt="" class="headerr">
+
+      <div class=" concept  text-center ">
+        <h2>Concept</h2>
+        <p>Our mission is to make sure that everyone that get the opportunity to be part of our community should
+          rip
+          the
+          benefit that comes with it. Such as personal grow, be educated in financial literacy, etc.
+        <div class="button-group pb-2" data-aos="fade-up">
+          <a href="about.php" class="btn btn-bordered-white ">Learn More</a>
         </div>
-
-        <div class="card" data-aos="fade-up">
-
-          <img src="./assets/img/about/mission.JPG" alt="" class="headerr">
-
-          <div class=" concept  text-center">
-            <h2>FWAFF’s long term mission</h2>
-            <p>
-              We have seen how people come to America and loose they are way in the process. Which I myself is one of
-              them. And that is one of the thing that we will mostly focus abo</p>
-          </div>
-        </div>
-
-        <div class="card" data-aos="fade-up">
-          <img src="./assets/img/about/opportinuty.JPG" alt="" class="headerr">
-
-          <div class=" concept  text-center">
-            <h2>Opportunities</h2>
-            <p>
-              The problem that we face now in our community is luck of information and guidance and that’s what FWAFF is
-              bring to our community.</p>
-          </div>
-        </div>
+        </p>
       </div>
+    </div>
 
+    <div class="card " data-aos="fade-up">
+
+      <img src="./assets/img/about/mission.JPG" alt="" class="headerr">
+
+      <div class=" concept  text-center">
+        <h2>FWAFF’s long term mission</h2>
+        <p>
+          We have seen how people come to America and loose they are way in the process. Which I myself is one of
+          them. And that is one of the thing that we will mostly focus about
+        <div class="button-group" data-aos="fade-up">
+          <a href="about.php" class="btn btn-bordered-white ">Learn More</a>
+        </div>
+        </p>
+      </div>
+    </div>
+
+    <div class="card" data-aos="fade-up">
+      <img src="./assets/img/about/opportinuty.JPG" alt="" class="headerr">
+
+      <div class=" concept  text-center">
+        <h2>Opportunities</h2>
+        <p>
+          The problem that we face now in our community is luck of information and guidance and that’s what FWAFF
+          is
+          bring to our community.
+        <div class="button-group" data-aos="fade-up">
+          <a href="about.php" class="btn btn-bordered-white ">Learn More</a>
+        </div>
+        </p>
+
+      </div>
     </div>
   </div>
 
@@ -243,7 +249,7 @@
 <!-- ***** Review Area End ***** -->
 
 <!--====== Contact Area Start ======-->
-<section id="contact" class="contact-area pt-5">
+<section id="contact" class="contact-area pt-5  pb-5">
   <div class="container">
     <div class="row justify-content-between align-items-center" data-aos="fade-up">
       <div class="col-12 col-lg-5">
