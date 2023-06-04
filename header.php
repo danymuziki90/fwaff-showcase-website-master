@@ -52,7 +52,7 @@ $about_text="$rs[about_text]";
     $follow_text = "$r[follow_text]";
 ?>
   <!-- Title  -->
-  <title>FWAFF - <?php print $site_title ?></title>
+  <title>FWAFF </title>
 
   <!-- Favicon  -->
   <link rel="icon" href="assets/img/favicon.png">

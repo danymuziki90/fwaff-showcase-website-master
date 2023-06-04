@@ -5,7 +5,7 @@
       <div class="col-12">
         <!-- Breamcrumb Content -->
         <div class="breadcrumb-content text-center">
-          <h2 class="text-white text-uppercase mb-3">Our Past Pulications</h2>
+          <h2 class="text-white text-uppercase mb-3">Our Past Publications</h2>
           <ol class="breadcrumb d-flex justify-content-center">
             <li class="breadcrumb-item"><a class="text-uppercase text-white" href="index.html">Home</a></li>
 

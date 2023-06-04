@@ -1,17 +1,12 @@
 <?php include "header.php"; ?>
 <!-- ***** Breadcrumb Area Start ***** -->
-<section class="section breadcrumb-area overlay-dark d-flex align-items-center">
+<section class="section breadcrumb-areaa overlay-dark d-flex align-items-center">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <!-- Breamcrumb Content -->
         <div class="breadcrumb-content d-flex flex-column align-items-center text-center">
           <h2 class="text-white text-uppercase mb-3">About Us</h2>
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a class="text-uppercase text-white" href="index.html">Home</a></li>
-
-            <li class="breadcrumb-item text-white active">About Us</li>
-          </ol>
         </div>
       </div>
     </div>
@@ -20,64 +15,57 @@
 <!-- ***** Breadcrumb Area End ***** -->
 
 <!-- ***** About Area Start ***** -->
-<section class="section about-area ptb_100">
-  <div class="container" data-aos="fade-up">
-    <div class="row justify-content-between align-items-center" data-aos="fade-up">
-      <div class="col-12 col-lg-6" data-aos="fade-up">
-        <!-- About Thumb -->
-        <div class="about-thumb text-center">
-          <img src="assets/img/about/together.JPG" alt="">
-        </div>
-      </div>
-      <div class="col-12 col-lg-6" data-aos="fade-up">
-        <!-- About Content -->
-        <div className='  sm:pt-20 justify-between items-center w-full max-h-full md:max-w-[1240px] mx-auto  '>
-          <h1 className='ffort1' data-aos="fade-up">Fort Worth
-            Africa Funeral Foundation</h1>
-          <p className='text-lg md:text-3xl md:pt-10' data-aos="fade-up"> Our mission here is to provide guidance to our
-            community, Support in any situation, Personal growth, educational etc... Which is crucial to adapt in this
-            country. And that is what FWAYG want to provide for our community</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
 
 
 
 <section class="section about-area ">
   <div class="container">
-    <h2 className='font-bold   text-3xl py-2 text-[#000000] ' data-aos="fade-up">FWAFF Concept</h2>
-    <p className='text-lg  md:text-xl' data-aos="fade-up"> We have seen how people come to America and loose they are
+    <div class='  sm:pt-20 justify-between items-center w-full max-h-full md:max-w-[1240px] mx-auto  '>
+      <img src="assets/img/about/GQLR6101.JPG" alt="" class="groupimg">
+      <h1 class='ffort1' data-aos="fade-up">Fort Worth
+        African Funeral Foundation</h1>
+
+      <p class='text-lg md:text-3xl md:pt-10' data-aos="fade-up"> Our mission here is to provide guidance to
+        our
+        community, Support in any situation, Personal growth, educational etc... Which is crucial to adapt in
+        this
+        country. And that is what FWAYG want to provide for our community</p>
+    </div>
+
+    <h2 class='font-bold   text-3xl py-2 text-[#000000] ' data-aos="fade-up">FWAFF Concept</h2>
+    <p class='text-lg  md:text-xl' data-aos="fade-up"> We have seen how people come to America and loose
+      they are
       way
-      in the process. Which I myself is one of them. And that is one of the thing that we will mostly focus about,
+      in the process. Which I myself is one of them. And that is one of the thing that we will mostly focus
+      about,
       helping
       others by :<br />
-      -Provide guidance in the ways that our community has gain knowledge for the shot period that we have been here.
+      -Provide guidance in the ways that our community has gain knowledge for the shot period that we have been
+      here.
       <br />
       -We will guide our community in different ways of life.
 
     </p>
 
-    <h2 className='font-bold   text-3xl py-2 text-[#000000]  ' data-aos="fade-up">FWAFF’s long term mission</h2>
-    <p className='text-lg  md:text-xl' data-aos="fade-up">
-      Our mission is to make sure that everyone that get the opportunity to be part of our community should rip the
-      benefit that comes with it. Such as personal grow, be educated in financial literacy, etc. <br /> Most of us that
+    <h2 class='font-bold   text-3xl py-2 text-[#000000]  ' data-aos="fade-up">FWAFF’s long term mission</h2>
+    <p class='text-lg  md:text-xl' data-aos="fade-up">
+      Our mission is to make sure that everyone that get the opportunity to be part of our community should rip
+      the
+      benefit that comes with it. Such as personal grow, be educated in financial literacy, etc. <br /> Most of
+      us that
       come here get influence by the wrong people and that change the course of our lives.
-      <br /> <span className='text-blue-400'>FWAFF</span> want to change that in our community : <br /> <br /> <span>
+      <br /> <span class='text-blue-400'>FWAFF</span> want to change that in our community : <br /> <br />
+      <span>
         - We will provide personal growth physically and mentally to our community. <br />
         - We will guide our community on the road of success. <br />
         - We will provide educational support to young, adult, and parents.
       </span>
     </p>
 
-    <h2 className='font-bold   text-3xl py-2 text-[#000000] ' data-aos="fade-up">Opportunities</h2>
-    <p className='mb-10 text-lg  md:text-xl' data-aos="fade-up">
+    <h2 class='font-bold   text-3xl py-2 text-[#000000] ' data-aos="fade-up">Opportunities</h2>
+    <p class='mb-10 text-lg  md:text-xl' data-aos="fade-up">
       The problem that we face now in our community is luck of information and guidance and that’s what <span
-        className='text-blue-400'> FWAFF</span> is bring to our community.
+        class='text-blue-400'> FWAFF</span> is bring to our community.
       <span>One of the problem that we have is adaptation. <br />
         The second problem is financial literacy
         The third problem is personal growth
@@ -92,14 +80,6 @@
 
 <!-- ***** About Area End ***** -->
 
-
-<!-- ***** Our Goal Area End ***** -->
-
-<!-- ***** Team Area Start ***** -->
-
-<!-- ***** Team Area End ***** -->
-
-
 <!--====== Contact Area Start ======-->
 <section id="contact " class="contact-area ptb_100 ">
   <div class="container border-2 pt-5 " data-aos="fade-up">
@@ -108,7 +88,8 @@
         <!-- Section Heading -->
         <div class="section-heading text-center mb-3">
           <h2><?php print $contact_title ?></h2>
-          <p class="d-none d-sm-block mt-4">If you have a question, comment or idea, please fill in the form or call us
+          <p class="d-none d-sm-block mt-4">If you have a question, comment or idea, please fill in the form or
+            call us
             and
             we will get back to you as soon as posssible</p>
         </div>

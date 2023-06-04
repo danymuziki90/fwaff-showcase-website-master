@@ -178,7 +178,7 @@ h2 {
 }
 
 h3 {
-  font-size: 5px;
+  font-size: 15px;
   line-height: 1;
 }
 
@@ -242,7 +242,7 @@ ul li {
 }
 
 img {
-  height: 150px;
+  height: 250px;
   width: 100%;
 }
 
@@ -796,47 +796,47 @@ img {
 
 /*BACKGROUND IMAGES*/
 .welcome-area {
-  background: rgba(0, 0, 0, 0) url("../img/bg/welcome_bg.jpg") no-repeat fixed
+  background: url("../img/bg/welcome_bg.jpg") no-repeat fixed
     center center / cover;
 }
 
 .homepage-2 .welcome-area {
-  background: rgba(0, 0, 0, 0) url("../img/bg/welcome_bg_2.png") no-repeat
+  background:  url("../img/bg/welcome_bg_2.png") no-repeat
     scroll center center / cover;
 }
 
 .homepage-3 .welcome-area {
-  background: rgba(0, 0, 0, 0) url("../img/bg") no-repeat scroll center center /
-    cover;
+   background: url("./img/bg/welcome_bg_2.png") no-repeat
+    scroll center center / cover;
 }
 
 .homepage-4 .welcome-area {
-  background: rgba(0, 0, 0, 0) url("../img/bg/welcome_bg_4.jpg") no-repeat fixed
+  background:url("../img/bg/welcome_bg_4.jpg") no-repeat fixed
     center center / cover;
 }
 
 .cta-area {
-  background: rgba(0, 0, 0, 0) url("../img/bg/cta_bg.PNG") no-repeat fixed
+  background: url("../img/bg/cta_bg.PNG") no-repeat fixed
     center center / cover;
 }
 
 .breadcrumb-area {
-  background: rgba(0, 0, 0, 0) url("../img/bg/cta_bg.PNG") no-repeat fixed
+  background: url("../img/bg/welcome.PNG") no-repeat fixed
     center center / cover;
 }
 
 .blog .breadcrumb-area {
-  background: rgba(0, 0, 0, 0) url("../img/bg/cta_bg.PNG") no-repeat fixed
+   background: url("../img/bg/welcome_bg.jpg") no-repeat fixed
     center center / cover;
 }
 
 .error-page {
-  background: rgba(0, 0, 0, 0) url("../img/bg/error_bg.png") repeat-x fixed left
+  background:  url("../img/bg/error_bg.png") repeat-x fixed left
     top / cover;
 }
 
 .error-page .stars {
-  background: rgba(0, 0, 0, 0) url("../img/bg/stars.svg") repeat fixed left top /
+  background: url("../img/bg/stars.svg") repeat fixed left top /
     contain;
 }
 
@@ -2962,3 +2962,13 @@ body.dark,
 footer {
   margin-bottom: -100px;
 }
+
+.breadcrumb-areaa{
+  height: 270px;
+  }
+  .groupimg{
+    height: auto;
+    padding-top: 20px;
+    box-shadow: #0004ff;
+    border-radius: 15px;
+  }

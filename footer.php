@@ -34,16 +34,18 @@
         </div>
 
 
-        <div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up">
+        <div class="col-12 col-sm-6 col-lg-4">
           <!-- Footer Items -->
           <div class="footer-items">
             <!-- Footer Title -->
             <h2 class='title'>Find us on</h2>
             <!-- Social Icons -->
             <ul class="social-icons list-inline pt-2">
-              <a type="button" class="btn-insta" style="color:red"><i class="fab fa-instagram"></i></a>
-              <a type="button" class="btn-floating" style="color:blue"><i class="fab fa-facebook"></i></a>
-              <a type="button" class="btn-google" style="color: red"><i class=" fab fa-google-plus-g"></i></a>
+              <a type="button" class="btn-insta" style="color:red" href=""><i class="fab fa-instagram"></i></a>
+              <a type="button" class="btn-floating" style="color:blue" href="https://facebook.com/fwaff"><i
+                  class="fab fa-facebook"></i></a>
+              <a type="button" class="btn-google" style="color: red" href="administration@fwaff.org"><i
+                  class=" fab fa-google-plus-g"></i></a>
 
             </ul>
           </div>
