@@ -20,8 +20,7 @@
             benefit that comes with it. Such as personal grow, be educated in financial literacy, etc.</p>
           <!-- Buttons -->
           <div class="button-group" data-aos="fade-up">
-            <a href="about.php" class="btn btn-bordered-white">Read More</a>
-            <a href="contact.php" class="btn btn-bordered-white d-none d-sm-inline-block">Contact Us</a>
+            <a href="about.php" class="btn btnn btn-bordered-white">Read More</a>
           </div>
         </div>
       </div>
