@@ -32,7 +32,7 @@
         country. And that is what FWAYG want to provide for our community</p>
     </div>
 
-    <h2 class='font-bold   text-3xl py-2 text-[#000000] ' data-aos="fade-up">FWAFF Concept</h2>
+    <h2 class='ffort10 font-bold font-bold text-3xl py-2 text-[#000000] ' data-aos="fade-up">FWAFF Concept</h2>
     <p class='text-lg  md:text-xl' data-aos="fade-up"> We have seen how people come to America and loose
       they are
       way
@@ -47,7 +47,8 @@
 
     </p>
 
-    <h2 class='font-bold   text-3xl py-2 text-[#000000]  ' data-aos="fade-up">FWAFF’s long term mission</h2>
+    <h2 class='ffort10 font-bold font-bold text-3xl py-2 text-[#000000]  ' data-aos="fade-up">FWAFF’s long term mission
+    </h2>
     <p class='text-lg  md:text-xl' data-aos="fade-up">
       Our mission is to make sure that everyone that get the opportunity to be part of our community should rip
       the
@@ -62,10 +63,10 @@
       </span>
     </p>
 
-    <h2 class='font-bold   text-3xl py-2 text-[#000000] ' data-aos="fade-up">Opportunities</h2>
+    <h2 class='ffort10 font-bold   text-3xl py-2 text-[#000000] ' data-aos="fade-up">Opportunities</h2>
     <p class='mb-10 text-lg  md:text-xl' data-aos="fade-up">
       The problem that we face now in our community is luck of information and guidance and that’s what <span
-        class='text-blue-400'> FWAFF</span> is bring to our community.
+        class='text-blue-400 font-bold'> FWAFF</span> is bring to our community.
       <span>One of the problem that we have is adaptation. <br />
         The second problem is financial literacy
         The third problem is personal growth
